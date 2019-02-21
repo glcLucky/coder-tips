@@ -125,6 +125,8 @@ git merge testing
 ## 常用命令
 - ` git remote add origin git@github.com:glcLucky/finance_plan.git` 添加一个远程仓库
 添加仓库必须在git文件夹下，如果想clone某一远程仓库(比如coder-tips)并连接，可以通过如下方法实现：
+
+- `git remote rm origin` 删除远程连接origin
 ```
 git init coder-tips
 cd coder-tips
